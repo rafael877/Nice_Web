@@ -1,0 +1,121 @@
+
+* {
+  box-sizing: border-box;  
+  padding: 0;
+  margin: 0 auto ;
+}
+
+/* 
+#site{
+    position: relative;
+} */
+
+#menuH{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 2px;
+    width: 100%;
+    background-color:#3D4454;
+    /* margin: 0 auto; */
+}
+
+#menuH ul{
+    max-width: 400px;
+    list-style: none;
+    padding: 0;
+    background-color:#3D4454;
+}
+
+#menuH ul li{
+    display: inline;
+}
+
+#menuH ul li a{
+    color: #fff;
+    padding: 20px;
+    display:inline-block;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+#menuH ul li a:hover{
+    background-color: rgb(64, 81, 180);
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    text-align: center;
+   
+}
+
+/*
+-- Tipografia e Cores
+*/
+
+body {
+    color: #333;
+}
+
+body, input, select, textarea {
+    
+    font-family:'Courier New', Courier, monospace,sans-serif;
+}
+
+a:link {
+    color: #0F599F;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 1px dotted rgb(255, 255, 255);
+}
+
+a:active {
+    color: #F00;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    margin: 0 auto;
+ }
+
+
+
+
+
+/* para o conteudo */ 
+.container {
+    
+    font-weight: lighter;
+    font-size: 14pt;
+    margin: 0 auto;
+    width: 960px;
+    color: #0F599F;
+    }
+
+    #rodape {
+      
+        padding:0 auto;
+        display: flex;
+        overflow: hidden;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        color: white;
+        background-color: #3D4454;
+      
+
+    }
